@@ -8,6 +8,8 @@ relatórios CSV, TXT ou Excel de fornecedores, parceiros ou equipes internas e q
 ## **Como funciona**
 
 1. Você fornece um **arquivo modelo** (CSV, TXT ou Excel) com a estrutura correta.  
+
+---
 2. O script percorre todos os arquivos da pasta e verifica:  
    - Se possuem as mesmas colunas que o arquivo modelo.  
    - Quais arquivos estão inconsistentes.  
