@@ -55,8 +55,8 @@ def validar_estrutura(pasta: str, arquivo_modelo: str):
 
 
 # Exemplo de uso:
-pasta = r"C:\proj_pessoal\VALIDADOR\TESTES"
-arquivo_modelo = r"C:\proj_pessoal\VALIDADOR\TESTES\modelo.csv"
+pasta = r"pasta_dos_arquivos"
+arquivo_modelo = r"pasta_dos_arquivos/nome_modelo.xlsx"
 resultado = validar_estrutura(pasta, arquivo_modelo)
 
 print("Colunas de referência:", resultado["colunas_referencia"])
